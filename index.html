@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chpek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registration form</h1>
+
+        <form action="https://webhook.site" method="get">
+            <label for="inputName">Name: <sup style="color: red;">*</sup></label><br>
+            <input type="text", name ="inputName", id="inputName" required><br>
+
+            <label for="inputSurname">Surname: </label><br>
+            <input type="text", name ="inputSurname", id="inputSurname"><br>
+            
+            <label for="inputEmail">Email: <sup style="color: red;">*</sup></label><br>
+            <input type="email", name ="inputEmail", id="inputEmail" required><br>
+            
+            <label for="pwd">Pasword: <sup style="color: red;">*</sup></label><br>
+            <input type="password", name ="pwd", id="inputPwd" required><br>
+
+            <label for="rpwd">Pasword again: <sup style="color: red;">*</sup></label><br>
+            <input type="password", name ="rpwd", id="inputPwd" required><br>
+            <br>
+
+            <select>
+                <option value="undefined">-</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="chpek">Chpek</option>
+            </select>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
