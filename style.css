@@ -1,5 +1,9 @@
-.registration-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.registration-form {
+    background-color: #f0f0f0; /* Background color */
+    width: 400px; /* Width */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    position: relative; /* Positioning */
+    margin: 0 auto; /* Center the form horizontally */
 }
